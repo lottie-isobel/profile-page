@@ -1,0 +1,119 @@
+:root {
+  --branding-color: #779be7;
+  --secondary-color: #fae5e2;
+  --heading-font-family: "Playfair Display", serif;
+  --content-font-family: "poppins", sans-serif;
+}
+
+h1 {
+  font-size: 96px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h2 {
+  font-family: var(--content-font-family);
+  font-weight: normal;
+  font-size: 24px;
+  color: #272142;
+  line-height: 2;
+  padding-top: 100px;
+}
+
+p {
+  font-size: 18px;
+  font-family: var(--content-font-family);
+}
+
+.my-pic {
+  width: 100%;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.hero {
+  margin-top: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  padding: 120px;
+  background-color: var(--secondary-color);
+  text-align: center;
+  border-radius: 30px;
+}
+
+.btn-branding {
+  color: white;
+  background-color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+.btn-branding:hover {
+  background-color: var(--secondary-color);
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
+.truthorlie {
+  margin-top: -100px;
+  text-align: center;
+}
+
+.truthorlie h2 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+}
+
+.truthorlie ol {
+  font-family: var(--content-font-family);
+  font-size: 18px;
+  display: inline-block;
+  text-align: left;
+}
+
+.truthorlie p {
+  font-size: 28px;
+  font-family: var(--heading-font-family);
+}
+
+.truth {
+  background-color: var(--branding-color);
+  color: white;
+  border-radius: 4px;
+  border: 1px solid var(--branding-color);
+}
+
+.truth:hover {
+  background-color: white;
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
